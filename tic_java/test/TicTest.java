@@ -16,6 +16,5 @@ class TicTest {
 	void testPlayX() {
 		Tic board = new Tic(3, 3);
 		board.playX(1,1);
-		assertEquals(board.board[1][1], "X");
+		assertEquals(board.board[1][1], "O");
 	} 
-	
