@@ -27,6 +27,10 @@ class TicTest {
 	@Test
 	void testRows() {
 		Tic board = new Tic(3,3);
-		assertEquals(4, board.getRows());
+		assertEquals(3, board.getRows());
 	}
-	
+	@Test
+	void testCols() {
+		Tic board = new Tic(3,3);
+		assertEquals(3, board.getCols());
+	}
