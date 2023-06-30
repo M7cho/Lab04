@@ -22,5 +22,11 @@ class TicTest {
 	void testPlayO() {
 		Tic board = new Tic(3, 3);
 		board.playO(1,1);
-		assertEquals(board.board[1][1], "X");
+		assertEquals(board.board[1][1], "O");
+	} 
+	@Test
+	void testRows() {
+		Tic board = new Tic(3,3);
+		assertEquals(3, board.getRows());
 	}
+	

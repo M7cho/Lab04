@@ -50,5 +50,7 @@ public class Tic {
 		}
 		this.board[row][col] = "O";
 	}
-
+	public int getRows() {
+		return rows;
+	}
 } 
