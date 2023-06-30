@@ -43,6 +43,12 @@ public class Tic {
 			return;
 		}
 		this.board[row][col] = "X";
+	} 
+	public void playO(int row, int col) {
+		if (row > this.rows || col > this.cols) {
+			return;
+		}
+		this.board[row][col] = "O";
 	}
 
 } 
