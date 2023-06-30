@@ -38,6 +38,11 @@ public class Tic {
 		}
 		return true;
 	}
-	
+	public void playX(int row, int col) {
+		if (row > this.rows || col > this.cols) {
+			return;
+		}
+		this.board[row][col] = "X";
+	}
 
-}
+} 
