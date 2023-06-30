@@ -8,7 +8,7 @@ class TicTest {
 	@Test
 	void testEquals() {
 		Tic board = new Tic(3, 3);
-		Tic board2 = new Tic(3,3);
+		Tic board2 = new Tic(3,7);
 		assertEquals(board, board2);
 	}
 }
